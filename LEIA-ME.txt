@@ -1,0 +1,21 @@
+# Beach Soccer Manager — PWA Android
+
+## Publicar no GitHub Pages
+
+1. Extraia o ZIP.
+2. Faça upload do CONTEÚDO da pasta Beach_Manager_PWA para a raiz do mesmo repositório usado no GitHub Pages, substituindo index.html. Inclua assets/, icons/, manifest.json e sw.js.
+3. Aguarde o GitHub Pages publicar. Abra a URL HTTPS no Chrome do Android.
+4. Menu ⋮ > Adicionar à tela inicial / Instalar aplicativo.
+5. Abra uma vez conectado à internet para assegurar o download dos arquivos offline. Depois, teste em modo avião.
+
+## Dados de carreira
+
+Os 5 slots continuam em localStorage usando as chaves originais. Se o endereço/origem do site mudar, o save não migra automaticamente. Antes da mudança, use Carregar jogo salvo > Exportar 5 slots; no novo endereço use Importar JSON. Não desinstale ou limpe os dados sem antes exportar.
+
+## Offline
+
+O HTML e os estilos, ícones e fontes de ícone são locais e armazenados em cache. Escudos externos hospedados no Wikimedia Commons exigem internet e podem não aparecer offline; escudos importados/salvos no armazenamento local continuam sujeitos aos limites do navegador. Não use arquivo file:// para instalar PWA: publique em HTTPS.
+
+## Atualizações
+
+Após publicar, abra o jogo com acesso à internet para buscar a versão recente. Reinicie o aplicativo, se necessário. Instalar o PWA ou usar o modo offline não equivale a backup da carreira.
